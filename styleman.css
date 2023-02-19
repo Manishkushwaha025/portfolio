@@ -1,0 +1,386 @@
+html, body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body {
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background: #f1556a;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #f1556a;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
+}
+
+a.main-button-slider {
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 15px 25px;
+  background-color: #fba70b;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a.main-button-slider:hover {
+  background-color: #f1556a;
+}
+
+a.main-button {
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 15px 25px;
+  background-color: #f4813f;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a.main-button:hover {
+  background-color: #f1556a;
+}
+
+button.main-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 15px 25px;
+  background-color: #f4813f;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button.main-button:hover {
+  background-color: #f1556a;
+}
+
+
+.center-heading {
+  margin-bottom: 70px;
+}
+
+#clock {
+  margin-right: 0px;
+  text-align: right;
+   color: black; 
+   font-size: large; 
+   font-style:oblique; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   z-index: -1;
+}
+.vl {
+  border-left: 2px solid white;
+  height: 25px;
+  text-align: center;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+body {
+  background-image: url('images/pink purple.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+}
+.nav-link:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-family: inherit;
+  font-weight: 800;
+  padding-bottom: 0%;
+}
+
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 190px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: .3s ease;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:hover {
+  outline: none;
+  border-color: rgba(234, 76, 137, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+
+#name {
+  color:black;
+  margin-top: 90px;
+  font-size: 25px;
+  margin-left: 15%;
+  position: absolute;
+  font-family: inherit;
+}
+
+#man {
+  color:white;
+  margin-left: -41px;
+  position: absolute;
+  font-size: 50px;
+  font-family: inherit;
+  font-weight: 800;
+  margin-top: 15px;
+  
+}
+#destroy {
+  color:black;
+  margin-top: 166px;
+  font-size: 25px;
+  margin-left: 29%;
+  position: absolute;
+  font-family: inherit;
+  z-index: -1;
+}
+
+#create {
+  color:hsl(182, 100%, 50%);
+  margin-top: 25px;
+  font-size: 25px;
+  margin-left: -81px;
+  font-style:oblique;
+  position: absolute;
+  font-family: inherit;
+  z-index: -1;
+}
+
+#delele {
+   color:#e1e1e1;
+}
+
+#bgimage {
+  height: 500px;
+  width: auto;
+  position: relative;
+  margin-left:590px;
+  z-index: 0;
+}
+
+
+@media only screen and (max-width: 840px) {
+ 
+  #name {
+    color:rgb(247, 194, 19);
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 15%;
+    position: absolute;
+    font-family: inherit;
+  }
+  
+  #man {
+    color:white;
+    margin-left: -41px;
+    position: absolute;
+    font-size: 50px;
+    font-family: inherit;
+    font-weight: 800;
+    margin-top: 15px;
+    
+  }
+  #destroy {
+    color:black;
+    margin-top: 96px;
+    font-size: 25px;
+    margin-left: 29%;
+    position: absolute;
+    font-family: inherit;
+    z-index: 88;
+  }
+  
+  #create {
+    color:hsl(182, 100%, 50%);
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: -81px;
+    font-style:oblique;
+    position: absolute;
+    font-family: inherit;
+    z-index: 89;
+  }
+  
+   
+   #bgimage {
+    margin-top: 100px;
+    position: relative;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    
+   }
+ }
+ 
+ @media only screen and (min-width: 841px) {
+  
+  #name {
+    color:black;
+    margin-top: 200px;
+    font-size: 25px;
+    margin-left: 5%;
+    position: absolute;
+    font-family: inherit;
+  }
+  
+  #man {
+    color:white;
+    margin-left: -41px;
+    position: absolute;
+    font-size: 50px;
+    font-family: inherit;
+    font-weight: 800;
+    margin-top: 15px;
+    
+  }
+  #destroy {
+    color:black;
+    margin-top: 276px;
+    font-size: 25px;
+    margin-left: 19%;
+    position: absolute;
+    font-family: inherit;
+    z-index: 88;
+  }
+  
+  #create {
+    color:hsl(182, 100%, 50%);
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: -81px;
+    font-style:oblique;
+    position: absolute;
+    font-family: inherit;
+    z-index: 89;
+  }
+  
+   
+   #bgimage {
+    margin-top: -20px;
+    margin-left: 30%;
+    margin-right: 0s%;
+    width: 800px;
+    height: 100%;
+    
+    
+   }
+  }
+
+  .welcome-area {
+    width: 100%;
+    height: 100vh;
+    min-height: 793px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    z-index: -1;
+  }
